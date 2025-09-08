@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard - Schwarz</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <!-- Menu Lateral -->
+    <aside class="sidebar">
+      <h1 class="logo">Schwarz</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">📊 Dashboard</a></li>
+          <li><a href="nova-analise.html">🧠 Nova Análise</a></li>
+          <li><a href="plano-acao.html">🛠️ Plano de Ação</a></li>
+          <li><a href="historico.html">📚 Histórico</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+      <header>
+        <h2>Dashboard Geral</h2>
+        <p>Resumo de problemas, causas e ações em andamento</p>
+      </header>
+
+      <section class="cards">
+        <div class="card">
+          <h3>🔍 Análises de Causa</h3>
+          <p>23 este mês</p>
+        </div>
+        <div class="card">
+          <h3>🛠️ Planos de Ação</h3>
+          <p>14 em andamento</p>
+        </div>
+        <div class="card">
+          <h3>✅ Casos Resolvidos</h3>
+          <p>109 totais</p>
+        </div>
+      </section>
+
+      <section class="section-table">
+        <h3>📋 Últimos Casos</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Área</th>
+              <th>Problema</th>
+              <th>Status</th>
+              <th>Ação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#1024</td>
+              <td>Manufatura</td>
+              <td>Falha no processo de soldagem</td>
+              <td><span class="status em-andamento">Em andamento</span></td>
+              <td><a href="#">Ver detalhes</a></td>
+            </tr>
+            <tr>
+              <td>#1023</td>
+              <td>Qualidade</td>
+              <td>Produto com defeito recorrente</td>
+              <td><span class="status resolvido">Resolvido</span></td>
+              <td><a href="#">Ver detalhes</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

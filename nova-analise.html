@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nova Análise - Schwarz</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="container">
+    <aside class="sidebar">
+      <h1 class="logo">Schwarz</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">📊 Dashboard</a></li>
+          <li><a href="nova-analise.html">🧠 Nova Análise</a></li>
+          <li><a href="plano-acao.html">🛠️ Plano de Ação</a></li>
+          <li><a href="historico.html">📚 Histórico</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header>
+        <h2>Nova Análise de Causa Raiz</h2>
+        <p>Preencha as informações do problema</p>
+      </header>
+
+      <form class="form">
+        <label>Área Responsável</label>
+        <input type="text" placeholder="Ex: Manufatura" />
+
+        <label>Descrição do Problema</label>
+        <textarea placeholder="Descreva o problema identificado..."></textarea>
+
+        <label>Análise (5 Porquês)</label>
+        <textarea placeholder="1. What ? (O que ?)&#10;2. Why ? (Por quê ?).&#10;3. Where ? (Onde ?)&#10;4. When ? (Quando ?)&#10;5. Who ? (Quem ?)"></textarea>
+
+        <label>Possível Causa Raiz</label>
+        <input type="text" placeholder="Ex: Falta de manutenção preventiva" />
+
+        <button type="submit">Salvar Análise</button>
+      </form>
+    </main>
+  </div>
+</body>
+</html>
